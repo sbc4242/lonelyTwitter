@@ -38,6 +38,9 @@ public class LonelyTwitterActivity extends Activity {
 		saveButton.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
+				ArrayList<CurrentMood> moods = new ArrayList<CurrentMood>();
+
+
 				Tweet tweet = new ImportantTweet("");
 				NormalTweet tweet1 = new NormalTweet("");
 				try {
